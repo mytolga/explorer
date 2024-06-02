@@ -20,27 +20,27 @@ module.exports = {
       {
         light: {
           ...require('daisyui/src/theming/themes')['[data-theme=light]'],
-          "primary": "#f5f5f4",
-          "primary-content": "#ca8a04",
-          "secondary": "#1c19117",
-          "base-100": "#ca8a04",
-          "base-200": "#f5f5f4",
-          "base-300": "#f5f5f4",
-          "base-content": "#111827",
+          "primary": "#FFA500", // Turuncu
+          "primary-content": "#000000", // Siyah
+          "secondary": "#D2691E", // Koyu Turuncu
+          "base-100": "#FFFFFF", // Beyaz
+          "base-200": "#FFFFFF", // Beyaz
+          "base-300": "#FFFFFF", // Beyaz
+          "base-content": "#000000", // Siyah
         },
       },
       {
         dark: {
           ...require('daisyui/src/theming/themes')['[data-theme=dark]'],
-          "primary": "#ca8a04",
-          "primary-content": "#1c1917",
-          "secondary": "#111827",
-          "base-100": "#1c1917",
-          "base-200": "#f5f5f4",
-          "base-300": "f5f5f4",
-          "base-content": "#fb923c",
-          "neutral": "#ca8a04",
-          "neutral-content": "#1c1917",
+          "primary": "#FFA500", // Turuncu
+          "primary-content": "#000000", // Siyah
+          "secondary": "#D2691E", // Koyu Turuncu
+          "base-100": "#000000", // Siyah
+          "base-200": "#000000", // Siyah
+          "base-300": "#000000", // Siyah
+          "base-content": "#FFA500", // Turuncu
+          "neutral": "#00FF00", // Yeşil (başarı mesajları)
+          "neutral-content": "#FF0000", // Kırmızı (hata mesajları)
         },
       },
     ],

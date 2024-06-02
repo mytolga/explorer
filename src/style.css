@@ -22,15 +22,15 @@ body {
 
 :root {
   --text-main: #000000;
-  --text-secondary: #ffa500;
+  --text-secondary: #D2691E;
   --bg-active: #000000;
 }
 
 html.dark,
 html[data-theme='dark'] {
-  --text-main: #FFA500;
-  --text-secondary: #FFA500;
-  --bg-active: #111827;
+  --text-main: #000000;
+  --text-secondary: #D2691E;
+  --bg-active: #000000;
 }
 
 .table th:first-child {
