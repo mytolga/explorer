@@ -27,6 +27,8 @@ module.exports = {
           "base-200": "#FFFFFF", // Beyaz
           "base-300": "#FFFFFF", // Beyaz
           "base-content": "#000000", // Siyah
+          "neutral": "#00FF00", // Yeşil (başarı mesajları)
+          "neutral-content": "#FF0000", // Kırmızı (hata mesajları)
         },
       },
       {
