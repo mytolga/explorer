@@ -143,7 +143,7 @@ const amount = computed({
 
           <div class="my-4 flex flex-wrap items-center">
             <a v-for="(item, index) of comLinks" :key="index" :href="item.href"
-              class="link link-primary px-2 py-1 rounded-sm no-underline hover:orange-500 hover:bg-gray-100 dark:hover:bg-zinc-950 flex items-center">
+              class="link link-orange-500 px-2 py-1 rounded-sm no-underline hover:orange-500 hover:bg-gray-100 dark:hover:bg-zinc-950 flex items-center">
               <Icon :icon="item?.icon" />
               <span class="ml-1 text-sm uppercase">{{ item?.name }}</span>
             </a>
@@ -278,7 +278,7 @@ const amount = computed({
       <div class="flex justify-between px-4 pt-4 pb-2 text-lg font-semibold text-main">
         <span class="truncate" >{{ walletStore.currentAddress || 'Not Connected' }}</span>
         <RouterLink v-if="walletStore.currentAddress"
-          class="float-right text-sm cursor-pointert link link-primary no-underline font-medium"
+          class="float-right text-sm cursor-pointert link link-orange-500 no-underline font-medium"
           :to="`/${chain}/account/${walletStore.currentAddress}`">{{ $t('index.more') }}</RouterLink>
       </div>
       <div class="grid grid-cols-1 md:!grid-cols-4 auto-cols-auto gap-4 px-4 pb-6">
@@ -333,7 +333,7 @@ const amount = computed({
           <tbody>
             <tr v-for="(item, index) in walletStore.delegations" :key="index">
               <td>
-                <RouterLink class="link link-primary no-underline" :to="`/${chain}/staking/${item?.delegation?.validator_address}`">
+                <RouterLink class="link link-orange-500 no-underline" :to="`/${chain}/staking/${item?.delegation?.validator_address}`">
                 {{
                   format.validatorFromBech32(
                     item?.delegation?.validator_address
