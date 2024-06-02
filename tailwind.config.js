@@ -26,6 +26,10 @@ module.exports = {
       {
         dark: {
           ...require('daisyui/src/theming/themes')['[data-theme=dark]'],
+          "colors": {
+            "text": "#FFA500", // Turuncu yazı rengi
+            // Diğer renkleri de burada değiştirebilirsiniz
+          },
           "base-100": "#000000", // Siyah
           "base-200": "#000000", // Siyah
         },
