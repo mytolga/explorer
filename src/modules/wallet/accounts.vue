@@ -361,7 +361,7 @@ async function loadBalances(chainName: string, endpoint: string, address: string
           </table>
         </div>
         <div class="modal-action mt-2 mb-0">
-          <a href="#" class="btn btn-info btn-sm" @click="importStep = 'step1'">Close</a>
+          <a href="#" class="btn btn-orange-300 btn-sm" @click="importStep = 'step1'">Close</a>
         </div>
       </div>
     </div>

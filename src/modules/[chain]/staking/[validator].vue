@@ -227,7 +227,7 @@ function pageload(p: number) {
               </div>
               <label
                 for="delegate"
-                class="btn btn-info btn-sm w-full"
+                class="btn btn-orange-300 btn-sm w-full"
                 @click="
                   dialog.open('delegate', {
                     validator_address: v.operator_address,
@@ -430,7 +430,7 @@ function pageload(p: number) {
           <div class="">
             <label
               for="withdraw_commission"
-              class="btn btn-info w-full"
+              class="btn btn-orange-300 w-full"
               @click="
                 dialog.open('withdraw_commission', {
                   validator_address: v.operator_address,

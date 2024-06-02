@@ -428,7 +428,7 @@ loadAvatars();
                                 <label
                                     v-else
                                     for="delegate"
-                                    class="btn btn-xs btn-info rounded-sm capitalize"
+                                    class="btn btn-xs btn-orange-300 rounded-sm capitalize"
                                     @click="
                                         dialog.open('delegate', {
                                             validator_address:

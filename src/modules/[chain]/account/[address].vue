@@ -159,13 +159,13 @@ function updateEvent() {
         <div class="flex justify-end mb-4 pr-5">
             <label
               for="send"
-              class="btn btn-info btn-sm mr-2"
+              class="btn btn-orange-300 btn-sm mr-2"
               @click="dialog.open('send', {}, updateEvent)"
               >{{ $t('account.btn_send') }}</label
             >
             <label
               for="transfer"
-              class="btn btn-info btn-sm"
+              class="btn btn-orange-300 btn-sm"
               @click="
                 dialog.open(
                   'transfer',
@@ -339,13 +339,13 @@ function updateEvent() {
         <div class="flex justify-end mb-4">
           <label
             for="delegate"
-            class="btn btn-info btn-sm mr-2"
+            class="btn btn-orange-300 btn-sm mr-2"
             @click="dialog.open('delegate', {}, updateEvent)"
             >{{ $t('account.btn_delegate') }}</label
           >
           <label
             for="withdraw"
-            class="btn btn-info btn-sm"
+            class="btn btn-orange-300 btn-sm"
             @click="dialog.open('withdraw', {}, updateEvent)"
             >{{ $t('account.btn_withdraw') }}</label
           >
@@ -389,7 +389,7 @@ function updateEvent() {
                 <div v-if="v.balance" class="flex justify-end">
                   <label
                     for="delegate"
-                    class="btn btn-info btn-xs mr-2"
+                    class="btn btn-orange-300 btn-xs mr-2"
                     @click="
                       dialog.open(
                         'delegate',
@@ -403,7 +403,7 @@ function updateEvent() {
                   >
                   <label
                     for="redelegate"
-                    class="btn btn-info btn-xs mr-2"
+                    class="btn btn-orange-300 btn-xs mr-2"
                     @click="
                       dialog.open(
                         'redelegate',
@@ -417,7 +417,7 @@ function updateEvent() {
                   >
                   <label
                     for="unbond"
-                    class="btn btn-info btn-xs"
+                    class="btn btn-orange-300 btn-xs"
                     @click="
                       dialog.open(
                         'unbond',

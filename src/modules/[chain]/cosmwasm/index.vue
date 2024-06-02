@@ -34,7 +34,7 @@ function myContracts() {
 
         <div class="join border border-orange-500">
             <input v-model="creator" type=text class="input input-bordered w-40 join-item" placeholder="creator address" />
-            <button class="join-item btn  btn-info" @click="myContracts()">{{ $t('cosmwasm.btn_query') }}</button>
+            <button class="join-item btn  btn-orange-300" @click="myContracts()">{{ $t('cosmwasm.btn_query') }}</button>
         </div>
         <div class="overflow-x-auto">
             <table class="table table-compact w-full mt-4 text-sm">
@@ -66,7 +66,7 @@ function myContracts() {
             </table>
             <div class="flex justify-between">
                 <PaginationBar :limit="pageRequest.limit" :total="codes.pagination?.total" :callback="pageload" />
-                <label for="wasm_store_code" class="btn btn-info my-5" @click="dialog.open('wasm_store_code', {})">{{ $t('cosmwasm.btn_up_sc') }}</label>
+                <label for="wasm_store_code" class="btn btn-orange-300 my-5" @click="dialog.open('wasm_store_code', {})">{{ $t('cosmwasm.btn_up_sc') }}</label>
             </div>
         </div>
     </div>

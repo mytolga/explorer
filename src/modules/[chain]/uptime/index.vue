@@ -166,7 +166,7 @@ function fetchAllKeyRotation() {
           placeholder="Keywords to filter validators"
           class="input input-sm w-full flex-1 border border-gray-200 dark:border-gray-600"
         />
-        <button v-if="chainStore.isConsumerChain" class="btn btn-sm btn-info" @click="fetchAllKeyRotation">Load Rotated Keys</button>
+        <button v-if="chainStore.isConsumerChain" class="btn btn-sm btn-orange-300" @click="fetchAllKeyRotation">Load Rotated Keys</button>
       </div>
 
       <div v-if="chainStore.isConsumerChain && Object.keys(stakingStore.keyRotation).length === 0"

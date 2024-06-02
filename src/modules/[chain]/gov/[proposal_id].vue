@@ -248,13 +248,13 @@ function pageload(p: number) {
         <div class="mt-6 grid grid-cols-2">
           <label
             for="vote"
-            class="btn btn-info float-right btn-sm mx-1"
+            class="btn btn-orange-300 float-right btn-sm mx-1"
             @click="dialog.open('vote', { proposal_id })"
             >{{ $t('gov.btn_vote') }}</label
           >
           <label
             for="deposit"
-            class="btn btn-info float-right btn-sm mx-1"
+            class="btn btn-orange-300 float-right btn-sm mx-1"
             @click="dialog.open('deposit', { proposal_id })"
             >{{ $t('gov.btn_deposit') }}</label
           >

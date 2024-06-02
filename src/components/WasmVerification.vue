@@ -85,7 +85,7 @@ function verify() {
             <div v-if="Object.keys(verification).length == 0" >
                 <Icon icon="mdi:emoticon-sad-outline"></Icon>Haven't found verification
             </div>
-            <button class="btn btn-info mt-5" @click="verify" :disabled="verification.error !== undefined">verify</button>
+            <button class="btn btn-orange-300 mt-5" @click="verify" :disabled="verification.error !== undefined">verify</button>
         </div>
     </div>
 </template>
