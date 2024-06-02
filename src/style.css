@@ -33,6 +33,12 @@ html[data-theme='dark'] {
   --bg-active: #111827;
 }
 
+.btn {
+  background-color: var(--text-primary); /* Temadan ana rengi kullan */
+  color: #000000; /* Siyah metin */
+  /* Diğer düğme stilleri */
+}
+
 .table th:first-child {
   position: relative;
   z-index: 2;
