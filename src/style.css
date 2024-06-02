@@ -28,7 +28,7 @@ body {
 
 html.dark,
 html[data-theme='dark'] {
-  --text-main: #000000;
+  --text-main: #D2691E;
   --text-secondary: #D2691E;
   --bg-active: #000000;
 }
