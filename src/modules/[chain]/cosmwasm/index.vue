@@ -51,7 +51,7 @@ function myContracts() {
                         <td>{{ v.code_id }}</td>
                         <td>
                             <RouterLink :to="`/${props.chain}/cosmwasm/${v.code_id}/contracts`"
-                                class="truncate max-w-[200px] block text-primary dark:invert" :title="v.data_hash">
+                                class="truncate max-w-[200px] block text-orange-500 dark:invert" :title="v.data_hash">
                                 {{ v.data_hash }}
                             </RouterLink>
                         </td>

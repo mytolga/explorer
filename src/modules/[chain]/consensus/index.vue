@@ -223,7 +223,7 @@ async function update() {
             <div
               class="bg-amber-100 text-neutral-content rounded-full w-12 h-12"
             >
-              <span class="text-2xl text-primary font-semibold">{{ $t('consensus.r') }}</span>
+              <span class="text-2xl text-orange-500 font-semibold">{{ $t('consensus.r') }}</span>
             </div>
           </div>
         </div>

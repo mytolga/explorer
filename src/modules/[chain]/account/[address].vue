@@ -138,7 +138,7 @@ function updateEvent() {
           >
             <Icon
               icon="mdi-qrcode"
-              class="text-primary"
+              class="orange-500"
               style="width: 27px; height: 27px"
             />
           </div>
@@ -209,7 +209,7 @@ function updateEvent() {
                 </div>
               </div>
               <div
-                class="text-xs truncate relative py-1 px-3 rounded-full w-fit text-primary dark:invert mr-2"
+                class="text-xs truncate relative py-1 px-3 rounded-full w-fit orange-500 dark:invert mr-2"
               >
                 <span
                   class="inset-x-0 inset-y-0 opacity-10 absolute bg-black dark:invert text-sm"
@@ -245,7 +245,7 @@ function updateEvent() {
                 </div>
               </div>
               <div
-                class="text-xs truncate relative py-1 px-3 rounded-full w-fit text-primary dark:invert mr-2"
+                class="text-xs truncate relative py-1 px-3 rounded-full w-fit orange-500 dark:invert mr-2"
               >
                 <span
                   class="inset-x-0 inset-y-0 opacity-10 absolute bg-black dark:invert text-sm"
@@ -278,7 +278,7 @@ function updateEvent() {
                 <div class="text-xs">{{ format.calculatePercent(rewardItem.amount, totalAmount) }}</div>
               </div>
               <div
-                class="text-xs truncate relative py-1 px-3 rounded-full w-fit text-primary dark:invert mr-2"
+                class="text-xs truncate relative py-1 px-3 rounded-full w-fit orange-500 dark:invert mr-2"
               >
                 <span
                   class="inset-x-0 inset-y-0 opacity-10 absolute bg-black  dark:invert text-sm"
@@ -314,7 +314,7 @@ function updateEvent() {
                 </div>
               </div>
               <div
-                class="text-xs truncate relative py-1 px-3 rounded-full w-fit text-primary dark:invert mr-2"
+                class="text-xs truncate relative py-1 px-3 rounded-full w-fit orange-500 dark:invert mr-2"
               >
                 <span class="inset-x-0 inset-y-0 opacity-10 absolute bg-black dark:invert"></span>
                 ${{format.tokenValue({
@@ -364,7 +364,7 @@ function updateEvent() {
           <tbody class="text-sm">
             <tr v-if="delegations.length === 0"><td colspan="10"><div class="text-center">{{ $t('account.no_delegations') }}</div></td></tr>
             <tr v-for="(v, index) in delegations" :key="index">
-              <td class="text-caption text-primary py-3">
+              <td class="text-caption orange-500 py-3">
                 <RouterLink
                   :to="`/${chain}/staking/${v.delegation.validator_address}`"
                   >{{
@@ -455,7 +455,7 @@ function updateEvent() {
           </thead>
           <tbody class="text-sm" v-for="(v, index) in unbonding" :key="index">
               <tr>
-                <td class="text-caption text-primary py-3 bg-orange-200" colspan="10">
+                <td class="text-caption orange-500 py-3 bg-orange-200" colspan="10">
                   <RouterLink
                     :to="`/${chain}/staking/${v.validator_address}`"
                     >{{
@@ -516,12 +516,12 @@ function updateEvent() {
             <tr v-if="txs.length === 0"><td colspan="10"><div class="text-center">{{ $t('account.no_transactions') }}</div></td></tr>
             <tr v-for="(v, index) in txs" :key="index">
               <td class="text-sm py-3">
-                <RouterLink :to="`/${chain}/block/${v.height}`" class="text-primary dark:invert">{{
+                <RouterLink :to="`/${chain}/block/${v.height}`" class="orange-500 dark:invert">{{
                   v.height
                 }}</RouterLink>
               </td>
               <td class="truncate py-3" style="max-width: 200px">
-                <RouterLink :to="`/${chain}/tx/${v.txhash}`" class="text-primary dark:invert">
+                <RouterLink :to="`/${chain}/tx/${v.txhash}`" class="orange-500 dark:invert">
                   {{ v.txhash }}
                 </RouterLink>
               </td>
@@ -560,12 +560,12 @@ function updateEvent() {
             <tr v-if="recentReceived.length === 0"><td colspan="10"><div class="text-center">{{ $t('account.no_transactions') }}</div></td></tr>
             <tr v-for="(v, index) in recentReceived" :key="index">
               <td class="text-sm py-3">
-                <RouterLink :to="`/${chain}/block/${v.height}`" class="text-primary dark:invert">{{
+                <RouterLink :to="`/${chain}/block/${v.height}`" class="orange-500 dark:invert">{{
                   v.height
                 }}</RouterLink>
               </td>
               <td class="truncate py-3" style="max-width: 200px">
-                <RouterLink :to="`/${chain}/tx/${v.txhash}`" class="text-primary dark:invert">
+                <RouterLink :to="`/${chain}/tx/${v.txhash}`" class="text-orange-500 dark:invert">
                   {{ v.txhash }}
                 </RouterLink>
               </td>

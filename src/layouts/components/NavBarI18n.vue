@@ -50,7 +50,7 @@ const handleLangChange = (lang: string) => {
             <li v-for="lang in i18nLangs" :key="lang.i18nLang">
                 <a
                     class="hover:bg-gray-100 dark:hover:bg-[#393939]"
-                    :class="{ 'text-primary': currentLang === lang.i18nLang }"
+                    :class="{ 'orange-500': currentLang === lang.i18nLang }"
                     @click="handleLangChange(lang.i18nLang)"
                     >{{ lang.label }}</a
                 >

@@ -218,7 +218,7 @@ loadAvatars();
         <div class="flex">
             <span>
                 <div class="relative w-9 h-9 rounded overflow-hidden flex items-center justify-center mr-2">
-                    <Icon class="text-primary" icon="mdi:lock-open-outline" size="32" />
+                    <Icon class="text-orange-500" icon="mdi:lock-open-outline" size="32" />
                     <div class="absolute top-0 left-0 bottom-0 right-0 opacity-20 bg-black"></div>
                 </div>
             </span>
@@ -353,7 +353,7 @@ loadAvatars();
                                     </div>
 
                                     <div class="flex flex-col">
-                                        <span class="text-sm text-primary dark:invert whitespace-nowrap overflow-hidden">
+                                        <span class="text-sm text-orange-500 dark:invert whitespace-nowrap overflow-hidden">
                                             <RouterLink
                                                 :to="{
                                                     name: 'chain-staking-validator',

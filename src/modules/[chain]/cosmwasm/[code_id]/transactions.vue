@@ -183,7 +183,7 @@ const result = ref({});
                     <tr v-for="resp in txs?.tx_responses">
                         <td>{{ resp.height }}</td>
                         <td>
-                            <div class="text-xs truncate text-primary dark:invert">
+                            <div class="text-xs truncate text-orange-500 dark:invert">
                                 <RouterLink :to="`/${chainStore.chainName}/tx/${resp.txhash}`">{{ resp.txhash }}
                                 </RouterLink>
                             </div>
@@ -256,7 +256,7 @@ const result = ref({});
                                         :key="index" :class="{ 'pt-2': index === 0 }">
                                         <label class="label cursor-pointer justify-start"
                                             @click="selectedRadio = item?.value">
-                                            <input type="radio" name="radio-10" class="radio radio-sm radio-primary mr-4"
+                                            <input type="radio" name="radio-10" class="radio radio-sm radio-orange-500 mr-4"
                                                 :checked="item?.value === selectedRadio"
                                                 style="border: 1px solid #d2d6dc" />
                                             <div>

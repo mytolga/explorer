@@ -61,10 +61,10 @@ const list = computed(() => {
                 </thead>
                 <tbody>
                     <tr v-for="(item, index) in base.txsInRecents" :index="index" class="hover">
-                        <td class="text-sm text-primary">
+                        <td class="text-sm text-orange-500">
                             <RouterLink :to="`/${props.chain}/block/${item.height}`">{{ item.height }}</RouterLink>
                         </td>
-                        <td class="truncate text-primary" width="50%">
+                        <td class="truncate text-orange-500" width="50%">
                             <RouterLink :to="`/${props.chain}/tx/${item.hash}`">{{
                                 item.hash
                             }}</RouterLink>

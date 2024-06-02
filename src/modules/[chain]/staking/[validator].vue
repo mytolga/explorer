@@ -456,7 +456,7 @@ function pageload(p: number) {
                 />
               </div>
             <RouterLink
-              class="text-xs text-primary"
+              class="text-xs text-porange-500"
               :to="`/${chain}/account/${addresses.account}`"
             >
               {{ addresses.account }}
@@ -525,10 +525,10 @@ function pageload(p: number) {
           </thead>
           <tbody>
             <tr v-for="{balance, delegation} in delegations.delegation_responses">
-              <td class="text-sm text-primary">
+              <td class="text-sm text-orange-500">
                 {{ delegation.delegator_address }}
               </td>
-              <td class="truncate text-primary">
+              <td class="truncate text-orange-500">
                 {{ format.formatToken(balance)}}
               </td>
               
@@ -553,12 +553,12 @@ function pageload(p: number) {
           </thead>
           <tbody>
             <tr v-for="(item, i) in txs.tx_responses">
-              <td class="text-sm text-primary">
+              <td class="text-sm text-orange-500">
                 <RouterLink :to="`/${props.chain}/block/${item.height}`">{{
                   item.height
                 }}</RouterLink>
               </td>
-              <td class="truncate text-primary" style="max-width: 200px">
+              <td class="truncate text-orange-500" style="max-width: 200px">
                 <RouterLink :to="`/${props.chain}/tx/${item.txhash}`">
                   {{ item.txhash }}
                 </RouterLink>

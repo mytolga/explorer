@@ -63,7 +63,7 @@ const chainStore = useBlockchain();
 
     <div
       v-if="featured.length > 0"
-      class="text-center text-base mt-6 text-primary"
+      class="text-center text-base mt-6 text-orange-500"
     >
       <h2 class="mb-6">Featured Blockchains 🔥</h2>
     </div>
