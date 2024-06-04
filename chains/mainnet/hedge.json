@@ -1,12 +1,12 @@
 {
-    "chain_name": "hedge-testnet",
+    "chain_name": "hedge",
     "api": ["https://hedge-testnet-api.mictonode.com"],
     "rpc": ["https://hedge-testnet-rpc.mictonode.com"],
     "coin_type": 118,
     "min_tx_fee": 200,
     "sdk_version": "0.45.11",
     "addr_prefix": "hedge",
-    "logo": "/logos/hedgen.jpg",
+    "logo": "/logos/hedge.jpg",
     "assets": [
       {
         "base": "uhedge",
