@@ -222,6 +222,55 @@ function selected(route: any, nav: NavLink) {
         </div>
       </div>
       <div class="px-2">
+        <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">
+          {{ $t('module.sponsors') }}
+        </div>
+        <a
+          href="https://mictonode.com"
+          target="_blank"
+          class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#393939]"
+        >
+          <img
+            src="https://i.hizliresim.com/5j1c5li.png"
+            class="w-6 h-6 rounded-full mr-3"
+          />
+          <div
+            class="text-sm capitalize flex-1 text-gray-600 dark:text-gray-200"
+          >
+            No Sponsor
+          </div>
+        </a>
+        <a
+          href="https://mictonode.com"
+          target="_blank"
+          class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#393939]"
+        >
+          <img
+            src="hhttps://i.hizliresim.com/5j1c5li.png"
+            class="w-6 h-6 rounded-full mr-3"
+          />
+          <div
+            class="text-sm capitalize flex-1 text-gray-600 dark:text-gray-200"
+          >
+          No Sponsor
+          </div>
+        </a>
+        <a
+          href="https://mictonode.com"
+          target="_blank"
+          class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#393939]"
+        >
+          <img
+            src="https://i.hizliresim.com/5j1c5li.png"
+            class="w-6 h-6 rounded-full mr-3"
+          />
+          <div
+            class="text-sm capitalize flex-1 text-gray-600 dark:text-gray-200"
+          >
+          No Sponsor
+          </div>
+        </a>
+
         <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">Tools</div>
         <RouterLink
           to="/wallet/suggest"
