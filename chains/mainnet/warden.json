@@ -1,5 +1,5 @@
 {
-  "chain_name": "warden",
+  "chain_name": "warden-buenavista",
   "api": ["https://warden-testnet-api.mictonode.com"],
   "rpc": ["https://warden-testnet-rpc.mictonode.com"],
   "coin_type": 118,
