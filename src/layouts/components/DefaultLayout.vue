@@ -231,7 +231,7 @@ function selected(route: any, nav: NavLink) {
           class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#393939]"
         >
           <img
-            src="https://mictonode.com/wp-content/uploads/2024/05/zipwp-image-4983-162x68.png"
+            src="https://i.hizliresim.com/5j1c5li.png"
             class="w-6 h-6 rounded-full mr-3"
           />
           <div
@@ -246,7 +246,7 @@ function selected(route: any, nav: NavLink) {
           class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#393939]"
         >
           <img
-            src="https://mictonode.com/wp-content/uploads/2024/05/zipwp-image-4983-162x68.png"
+            src="hhttps://i.hizliresim.com/5j1c5li.png"
             class="w-6 h-6 rounded-full mr-3"
           />
           <div
@@ -261,7 +261,7 @@ function selected(route: any, nav: NavLink) {
           class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#393939]"
         >
           <img
-            src="https://mictonode.com/wp-content/uploads/2024/05/zipwp-image-4983-162x68.png"
+            src="https://i.hizliresim.com/5j1c5li.png"
             class="w-6 h-6 rounded-full mr-3"
           />
           <div
