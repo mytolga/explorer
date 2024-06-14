@@ -91,7 +91,7 @@ export const DEFAULT: RequestRegistry = {
   staking_params: { url: '/cosmos/staking/v1beta1/params', adapter },
   staking_pool: { url: '/cosmos/staking/v1beta1/pool', adapter },
   staking_validators: {
-    url: '/cosmos/staking/v1beta1/validators?pagination.limit={limit}&status={status}',
+    url: '/cosmos/staking/v1beta1/validators?pagination.limit={250}&status={status}',
     adapter,
   },
   staking_validators_address: {
