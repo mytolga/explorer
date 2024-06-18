@@ -3,7 +3,6 @@ import { ref } from 'vue';
 import { useDashboard, type ChainConfig, useBlockchain } from '@/stores';
 import { CosmosRestClient } from '@/libs/client';
 import { onMounted } from 'vue';
-import AdBanner from '@/components/ad/AdBanner.vue';
 
 const error = ref("")
 const conf = ref("")
@@ -13,7 +12,6 @@ const selected = ref({} as ChainConfig)
 onMounted(() => {
     const chainStore = useBlockchain()
     selected.value = chainStore.current || Object.values(dashboard.chains)[0]
-  debugger;
     initParamsForKeplr()
 })
 async function initParamsForKeplr() {
@@ -86,8 +84,7 @@ function suggest() {
 </script>
 
 <template>
-    <div class="bg-base-100 p-4 rounded text-center">
-        <AdBanner id="keplr-banner-ad" unit="banner" width="970px" height="90px" />
+    <div class="bg-base-300 p-4 rounded text-center">
         <div class="flex">
             <select v-model="selected" class="select select-bordered mx-5" @change="initParamsForKeplr">
                 <option v-for="c in dashboard.chains" :value="c">

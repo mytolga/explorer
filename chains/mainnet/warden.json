@@ -7,7 +7,6 @@
   "sdk_version": "0.45.11",
   "addr_prefix": "warden",
   "logo": "/logos/warden.png",
-  "theme_color": "#157C83",
   "assets": [
     {
       "base": "uward",
