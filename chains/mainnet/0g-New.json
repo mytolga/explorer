@@ -1,0 +1,28 @@
+{
+    "chain_name": "0G-Newton",
+    "api": [
+        {
+            "address": "https://og-testnet-api.corenode.info/",
+            "provider": "NodeRuneR"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "https://og-testnet-rpc.corenode.info/",
+            "provider": "NodeRuneR"
+        }
+    ],
+    "sdk_version": "v0.46.11",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "assets": [{
+        "base": "ua0gi",
+        "symbol": "A0GI",
+        "exponent": "6",
+        "coingecko_id": "A0GI",
+        "logo": "https://pbs.twimg.com/profile_images/1762204546913468416/KBZhJfhC_400x400.jpg"
+    }],
+    "addr_prefix": "A0GI",
+    "theme_color": "#ce4747",
+    "logo": "https://pbs.twimg.com/profile_images/1762204546913468416/KBZhJfhC_400x400.jpg"
+}

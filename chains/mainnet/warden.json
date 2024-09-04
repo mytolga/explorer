@@ -1,7 +1,7 @@
 {
   "chain_name": "warden-buenavista",
-  "api": ["https://warden-testnet-api.mictonode.com"],
-  "rpc": ["https://warden-testnet-rpc.mictonode.com"],
+  "api": ["https://warden-testnet-api.noderuner.xyz/"],
+  "rpc": ["https://warden-testnet-rpc.noderuner.xyz/"],
   "coin_type": 118,
   "min_tx_fee": 200,
   "sdk_version": "0.45.11",
